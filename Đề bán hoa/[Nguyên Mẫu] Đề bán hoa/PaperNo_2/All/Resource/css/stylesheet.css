@@ -1,0 +1,89 @@
+.header {
+    /* display: block; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 60px;
+}
+
+.header img {
+    margin-right: 175px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.header_text1 {
+    padding: 0px 0px 0px 25px;
+}
+
+.header_text2 {
+    padding: 0px 25px 0px 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav_content {
+    list-style: none;
+    display: flex;
+    background-color: #ff9292;
+    justify-content: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+}
+
+.hoahong img {
+    width: 100%
+}
+
+.hoahong{
+    width: 30%;
+    display: flex;
+}
+
+.meaning_text {
+    display: flex;
+
+}
+
+.bestseller_heading {
+    text-align: center;
+    color: red;
+}
+
+.bestseller_content {
+    /* display: flex; */
+    justify-content: space-between;
+    border: 50px;
+    border-radius: 5px;
+}
+
+.flower_price {
+    color: red;
+}
+
+.buynow {
+    display: inline-flex;
+    background-color: orange;
+    border: 350px;
+    padding: 7px;
+    border-radius: 12px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #ff9292;
+}
